@@ -20,3 +20,7 @@ function moveDodgerLeft() {
     dodger.style.left = `${left - 1}px`
   }
 }
+
+document.addEventListener('keydown', function(e) {
+  console.log(e.which)
+})
